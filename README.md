@@ -40,6 +40,7 @@ class User(models.Model):
    loanamount=models.IntegerField()
    dob=models.DateField()
    age=models.IntegerField()
+   
 class UserAdmin(admin.ModelAdmin):
    list_display=('uid','name','loanamount','dob','age')
 ```
