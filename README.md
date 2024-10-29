@@ -23,7 +23,6 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-
 ```
 admin.py
 
@@ -43,7 +42,6 @@ class User(models.Model):
    age=models.IntegerField()
 class UserAdmin(admin.ModelAdmin):
    list_display=('uid','name','loanamount','dob','age')
-
 ```
 
 ## OUTPUT
